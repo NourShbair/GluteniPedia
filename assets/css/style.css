@@ -1,5 +1,53 @@
-.navbar-brand{
-    font-family: "Bungee Tint", sans-serif;
-    font-weight: 400;
+.alegreya-sans-sc-bold {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 1000;
     font-style: normal;
+  }
+
+.navbar-brand{
+    color: #FFFFFF !important;
+    letter-spacing: 2.5px;
+}
+
+.nav-link{
+    color: #FFFFFF !important;
+}
+
+.header-space{
+    height: 20px;
+}
+
+.card{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.card-img-top{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3rem;
+}
+
+.card-body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks a {
+     
+    color: #3a3a3a;
 }
