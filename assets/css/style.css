@@ -1,45 +1,99 @@
 .alegreya-sans-sc-bold {
     font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 1000;
-    font-style: normal;
+    font-weight: 900;
+    font-style:normal;
   }
 
+
+.navbar{
+    background-color: transparent !important;
+}
+
+
+
+
+#bg-img{
+    max-width: 100vw;
+    max-height: 150vw;
+    margin-top: -60PX;
+}
+
+#logo-image{
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 5px;
+}
+
+
 .navbar-brand{
-    color: #FFFFFF !important;
+    color: #161D6F !important;
     letter-spacing: 2.5px;
+    display: none;
 }
 
 .nav-link{
-    color: #FFFFFF !important;
+    color: #161D6F !important;
 }
 
-.header-space{
-    height: 20px;
+.navbar-nav{
+    margin-left: 10px;
 }
 
-.card{
-    margin-left: 20px;
-    margin-right: 20px;
+
+
+
+#card1{
+    background-color: #ffffff;
+ 
+}
+
+#card2{
+    background-image: url('../images/bg2.jpeg');
+    background-size: 100vw;
+ 
 
 }
+
+#card3{
+    background-color: #ffffff;
+ 
+}
+
+#card4{
+    background-image: url('../images/bg5.jpeg');
+    background-size: 100vw;
+ 
+
+
+}
+
+
 
 .card-img-top{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 3rem;
-}
-
-.card-body{
-    margin-left: 10%;
-    margin-right: 10%;
+    max-width: 50vw;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
 }
 
 
+#dark-text{
+    color:#071952 !important;
+}
+
+#light-text{
+    color:#ffffff !important;
+}
 
 
+.card-title{
+    text-align: center;
+}
 
 /* Footer */
-#social-networks {
+#footer-bar {
+    background-color: #088395;
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -47,7 +101,39 @@
     list-style-type: none;
 }
 
-#social-networks a {
+#footer-bar a {
      
-    color: #3a3a3a;
+    color: #ffffff;
+}
+
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    .navbar-brand{
+        display: flex;
+        padding-left: 10px !important;
+        margin-right: auto !important;
+    }
+
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .navbar-brand{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1200px) {    
+    .navbar-brand{
+        display: flex;
+    }
 }
