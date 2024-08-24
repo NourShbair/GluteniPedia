@@ -23,7 +23,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-      <!-- Linking CSS Styling -->
+  <!-- Linking CSS Styling -->
   <link rel="stylesheet" href="assets/css/style.css">
 
 
@@ -36,8 +36,8 @@
     <!-- Nav Bar inspired by BootStrap -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-          <img src="assets/images/logo.png" id="logo-image" alt="logo image beside website name">
-          <a class="navbar-brand alegreya-sans-sc-bold" href="#">GluteniPedia</a>
+        <img src="assets/images/logo.png" id="logo-image" alt="logo image beside website name">
+        <a class="navbar-brand alegreya-sans-sc-bold" href="#">GluteniPedia</a>
 
         <input id="menu-button" type="checkbox">
         <label for="menu-button"><span class="navbar-toggler-icon navbar-toggler"></span></label>
@@ -71,26 +71,275 @@
       <img src="assets/images/Symptoms.webp" class="card-img-top" alt="...">
       <div class="card-body">
         <h3 class="card-title dark-text"><strong>Diagnosing Celiac Disease and Gluten Intolerance</strong></h3>
-        <p class="card-text dark-text">Understanding whether you have celiac disease or gluten intolerance is crucial for managing your health. While both conditions require avoiding gluten, they are different in nature and diagnosis. This guide will walk you through the steps to get an accurate diagnosis, including symptoms to watch for, the testing process, and what to do after a diagnosis.</p>
-        <h5 class="dark-text"><strong>1. Recognizing Symptoms </strong></h5>
-        <br>
-        <h6  class="dark-text"><strong>Celiac Disease Symptoms</strong> </h6>
-        <p class="dark-text">Celiac disease is an autoimmune disorder where consuming gluten causes damage to the small intestine. Symptoms can vary widely and may include:</p>
-        <ul>
-          <li><p class="dark-text">Chronic diarrhea or constipation</p></li>
-          <li><p class="dark-text">Bloating and gas</p></li>
-          <li><p class="dark-text">Abdominal pain</p></li>
-          <li><p class="dark-text">Unexplained weight loss</p></li>
-          <li><p class="dark-text">Fatigue</p></li>
-          <li><p class="dark-text">Anemia (due to iron deficiency)</p></li>
-          <li><p class="dark-text">Joint pain</p></li>
-          <li><p class="dark-text">Skin rashes (such as dermatitis herpetiformis)</p></li>
-          <li><p class="dark-text">Neurological symptoms like headaches or numbness</p></li>
-          <li><p class="dark-text">Delayed growth in children</p></li>
-          
+        <p class="card-text dark-text">Understanding whether you have celiac disease or gluten intolerance is crucial
+          for managing your health. While both conditions require avoiding gluten, they are different in nature and
+          diagnosis. This guide will walk you through the steps to get an accurate diagnosis, including symptoms to
+          watch for, the testing process, and what to do after a diagnosis.</p>
 
-        </ul>
-    </div>
+        <ol>
+          <!-- Step #1-->
+          <li>
+            <h5 class="dark-text"><strong>Recognizing Symptoms </strong></h5>
+            <br>
+            <h6 class="dark-text"><strong>Celiac Disease Symptoms</strong> </h6>
+            <p class="dark-text">Celiac disease is an autoimmune disorder where consuming gluten causes damage to the
+              small intestine. Symptoms can vary widely and may include:</p>
+            <ul>
+              <li>
+                <p class="dark-text">Chronic diarrhea or constipation</p>
+              </li>
+              <li>
+                <p class="dark-text">Bloating and gas</p>
+              </li>
+              <li>
+                <p class="dark-text">Abdominal pain</p>
+              </li>
+              <li>
+                <p class="dark-text">Unexplained weight loss</p>
+              </li>
+              <li>
+                <p class="dark-text">Fatigue</p>
+              </li>
+              <li>
+                <p class="dark-text">Anemia (due to iron deficiency)</p>
+              </li>
+              <li>
+                <p class="dark-text">Joint pain</p>
+              </li>
+              <li>
+                <p class="dark-text">Skin rashes (such as dermatitis herpetiformis)</p>
+              </li>
+              <li>
+                <p class="dark-text">Neurological symptoms like headaches or numbness</p>
+              </li>
+              <li>
+                <p class="dark-text">Delayed growth in children</p>
+              </li>
+            </ul>
+            <br>
+            <h6 class="dark-text"><strong>Gluten Intolerance Symptoms</strong> </h6>
+            <p class="dark-text">Gluten intolerance, also known as non-celiac gluten sensitivity (NCGS), doesn’t cause
+              damage to the intestine but can still cause discomfort. Symptoms often overlap with those of celiac
+              disease and may include:</p>
+            <ul>
+              <li>
+                <p class="dark-text">Bloating</p>
+              </li>
+              <li>
+                <p class="dark-text">Abdominal pain</p>
+              </li>
+              <li>
+                <p class="dark-text">Diarrhea or constipation</p>
+              </li>
+              <li>
+                <p class="dark-text">Headaches or brain fog</p>
+              </li>
+              <li>
+                <p class="dark-text">Fatigue</p>
+              </li>
+              <li>
+                <p class="dark-text">Joint pain</p>
+              </li>
+            </ul>
+
+            <h6 class="dark-text"><strong>When to See a Doctor?</strong> </h6>
+            <p class="dark-text">If you’re experiencing any of these symptoms, particularly after consuming gluten, it’s
+              essential to consult a healthcare provider. They can help determine whether you need testing for celiac
+              disease or gluten intolerance.</p>
+          </li>
+
+          <br>
+
+          <!-- Step #2-->
+          <li>
+            <h5 class="dark-text"><strong>Initial Consultation and Medical History</strong></h5>
+            <h6 class="dark-text"><strong>Celiac Disease Symptoms</strong> </h6>
+            <p class="dark-text">Your healthcare provider will begin by taking a detailed medical history and discussing
+              your symptoms. Be prepared to answer questions about:</p>
+            <ul>
+              <li>
+                <p class="dark-text"><strong>Duration of symptoms:</strong> How long have you been experiencing
+                  symptoms?</p>
+              </li>
+              <li>
+                <p class="dark-text"><strong>symptoms:</strong>Do you have a family history of celiac disease, gluten
+                  intolerance, or other autoimmune conditions?</p>
+              </li>
+              <li>
+                <p class="dark-text"><strong>Diet:</strong> What is your current diet like? Have you tried eliminating
+                  gluten, and if so, what was the result?</p>
+              </li>
+              <li>
+                <p class="dark-text"><strong>Associated conditions:</strong> Have you been diagnosed with any other
+                  autoimmune disorders, such as type 1 diabetes or thyroid disease?</p>
+              </li>
+            </ul>
+            <p class="dark-text">This information helps the doctor assess the likelihood of celiac disease or gluten
+              intolerance and decide on the next steps.</p>
+          </li>
+
+          <br>
+          <!-- Step #3-->
+          <li>
+            <h5 class="dark-text"><strong>Blood Tests</strong></h5>
+            <p class="dark-text">If celiac disease is suspected, your doctor will likely order blood tests to look for
+              specific antibodies that are typically elevated in celiac disease patients:</p>
+            <ul>
+              <li>
+                <p class="dark-text"><strong>tTG-IgA Test (Tissue Transglutaminase Antibodies):</strong> This is the
+                  most common blood test for celiac disease. Elevated levels of tTG-IgA suggest that your body is
+                  reacting to gluten.</p>
+              </li>
+              <li>
+                <p class="dark-text"><strong>EMA Test (Endomysial Antibodies):</strong>This test is often used to
+                  confirm a positive tTG-IgA result. It’s highly specific to celiac disease.</p>
+              </li>
+              <li>
+                <p class="dark-text"><strong>Total Serum IgA:</strong>This test checks for IgA deficiency, which can
+                  affect the accuracy of the tTG-IgA and EMA tests.</p>
+              </li>
+              <li>
+                <p class="dark-text"><strong>Deamidated Gliadin Peptide (DGP):</strong> This test is sometimes used when
+                  the tTG-IgA test is negative, but celiac disease is still suspected.</p>
+              </li>
+            </ul>
+            <p class="dark-text"><strong>Important Note:</strong><br>It’s crucial that you continue consuming gluten
+              before and during testing. Eliminating gluten before testing can result in a false-negative result.</p>
+          </li>
+
+          <br>
+          <!-- Step #4-->
+          <li>
+            <h5 class="dark-text"><strong>Genetic Testing</strong></h5>
+            <p class="dark-text">While not definitive on its own, genetic testing can help rule out celiac disease. Most
+              people with celiac disease have one of two genetic markers:</p>
+            <ul>
+              <li>
+                <p class="dark-text"><strong>HLA-DQ2</strong> and <strong>HLA-DQ8</strong></p>
+              </li>
+            </ul>
+            <p class="dark-text">If you don’t have these markers, celiac disease is highly unlikely, although not
+              impossible.</p>
+          </li>
+
+          <br>
+          <!-- Step #5-->
+          <li>
+            <h5 class="dark-text"><strong>Small Intestinal Biopsy</strong></h5>
+            <p class="dark-text">If your blood tests suggest celiac disease, your doctor may recommend a small
+              intestinal biopsy to confirm the diagnosis. This procedure involves taking small samples from your small
+              intestine during an endoscopy.</p>
+            <ul>
+              <li>
+                <p class="dark-text"><strong>Procedure:</strong></p>
+                <ul>
+                  <li>
+                    <p class="dark-text"> An endoscope is passed through your mouth, down your esophagus, and into your
+                      small intestine to take tissue samples.</p>
+                  </li>
+                  <li>
+                    <p class="dark-text"> The tissue samples are then examined for damage to the villi, which are tiny
+                      finger-like projections that absorb nutrients.</p>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <p class="dark-text"><strong>Interpreting Results:</strong></p>
+                <ul>
+                  <li>
+                    <p class="dark-text"> Flattened or damaged villi confirm celiac disease.</p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <br>
+          <!-- Step #6-->
+          <li>
+            <h5 class="dark-text"><strong>Diagnosing Non-Celiac Gluten Sensitivity</strong></h5>
+            <p class="dark-text">If your tests for celiac disease are negative, but you still experience symptoms when
+              consuming gluten, you might have non-celiac gluten sensitivity (NCGS). There is no specific test for NCGS,
+              so it’s typically diagnosed by:
+            </p>
+            <ul>
+              <li>
+                <p class="dark-text"><strong>Excluding other conditions:</strong> Your doctor may rule out celiac
+                  disease, wheat allergy, and other gastrointestinal disorders.</p>
+              </li>
+
+              <li>
+                <p class="dark-text"><strong>Gluten challenge:</strong> After excluding other conditions, your doctor
+                  may suggest a gluten challenge where you reintroduce gluten after a period of elimination to see if
+                  symptoms reappear.</p>
+              </li>
+
+            </ul>
+            <p class="dark-text">If you don’t have these markers, celiac disease is highly unlikely, although not
+              impossible.</p>
+          </li>
+
+
+          <br>
+          <!-- Step #7-->
+          <li>
+            <h5 class="dark-text"><strong>Post-Diagnosis: What’s Next?</strong></h5>
+
+            <ul>
+              <h6 class="dark-text"><strong>Celiac Disease Management</strong></h6>
+              <li>
+                <p class="dark-text"><strong>Gluten-Free Diet: </strong>This is the only treatment for celiac disease.
+                  You’ll need to avoid all foods containing gluten for life.</p>
+
+              </li>
+
+              <li>
+                <p class="dark-text"><strong>Nutritional Support: </strong>Work with a dietitian to ensure your diet is
+                  balanced and meets your nutritional needs.</p>
+              </li>
+
+              <li>
+                <p class="dark-text"><strong>Regular Follow-Ups: </strong>Schedule regular check-ups to monitor your
+                  condition and screen for associated health issues.</p>
+              </li>
+            </ul>
+
+            <ul>
+              <h6 class="dark-text"><strong>Managing Gluten Intolerance</strong></h6>
+              <li>
+                <p class="dark-text"><strong>Dietary Adjustments:</strong>While not as strict as a celiac diet, you’ll likely need to avoid or reduce gluten in your diet.</p>
+
+              </li>
+
+              <li>
+                <p class="dark-text"><strong>Symptom Tracking: </strong>Keep a food diary to help identify other potential food triggers.</p>
+              </li>
+
+              <li>
+                <p class="dark-text"><strong>Ongoing Support: </strong>Consider joining a support group for people with gluten sensitivity or celiac disease.</p>
+              </li>
+            </ul>
+          </li>
+
+          <br>
+          <!-- Step #8-->
+          <li>
+            <h5 class="dark-text"><strong>Conclusion</strong></h5>
+            <p class="dark-text">Diagnosing celiac disease or gluten intolerance is a crucial step toward managing your health. If you suspect you have a gluten-related condition, consult your healthcare provider to begin the testing process. Early diagnosis and proper management can significantly improve your quality of life.
+              <br><strong>Call to Action</strong>
+              <br>If you think you might have celiac disease or gluten intolerance, don’t wait—talk to your doctor as soon as possible.</p>
+              
+              
+            
+  
+
+          </li>
+        </ol>
+
+
+
+      </div>
     </div>
 
   </main>
@@ -99,33 +348,29 @@
   <footer>
     <ul id="footer-bar">
       <li>
-        <a href="#" rel="noopener"
-          aria-label="">
+        <a href="#" rel="noopener" aria-label="">
           About</a>
       </li>
 
       <li>
-        <a href="#"  rel="noopener"
-          aria-label="">
+        <a href="#" rel="noopener" aria-label="">
           Contact Us</a>
       </li>
 
       <li>
-        <a href="#"  rel="noopener"
-          aria-label="">
+        <a href="#" rel="noopener" aria-label="">
           Conditions and Terms</a>
       </li>
 
       <li>
-        <a href="#" rel="noopener"
-          aria-label="">
+        <a href="#" rel="noopener" aria-label="">
           Privacy Policy</a>
       </li>
     </ul>
   </footer>
 
-      <!-- Font Awesome kit -->
-      <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome kit -->
+  <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 
 </body>
 
