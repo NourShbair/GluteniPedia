@@ -10,6 +10,14 @@
 }
 
 
+#menu-button{
+    display:none; 
+}
+
+/* Nav toggle */
+#menu-button:checked~#navbarSupportedContent {
+    display: block !important;
+}
 
 
 #bg-img{
@@ -24,7 +32,7 @@
 }
 
 
-.navbar-brand{
+.navbar-brand p{
     color: #161D6F !important;
     letter-spacing: 2.5px;
     display: none;
@@ -132,32 +140,22 @@
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    .navbar-brand{
-        display: flex;
-        padding-left: 10px;
-        margin-right: auto;
+    .navbar-brand p{
+        display: inline;
     }
 
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    .navbar-brand{
-        display: flex;
+    .navbar-brand p{
+        display: inline;
     }
 }
 
 @media screen and (min-width: 1200px) {    
-    .navbar-brand{
-        display: flex;
+    .navbar-brand p{
+        display: inline;
     }
 }
 
-#menu-button{
-    display:none; 
-}
-
-/* Nav toggle */
-#menu-button:checked~#navbarSupportedContent {
-    display: block !important;
-}
