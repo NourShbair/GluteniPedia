@@ -77,6 +77,23 @@
 }
 
 
+.celebrity-div a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+
+}
+
+.celebrity-card-container,.celebrity-card{
+    height: 100%;
+}
+
+.celebrity-img{
+    height: inherit;
+    object-fit: contain;
+}
+
 .dark-text{
     color:rgb(52, 51, 51) !important;
 }
@@ -89,7 +106,6 @@
 .card-title{
     text-align: center;
 }
-
 /* Footer */
 #footer-bar {
     background-color: #088395;
