@@ -6,7 +6,7 @@
 
 /* Header */
 header{
-    height: 6vh;
+    height: 8vh;
 }
 
 #menu-button{
@@ -29,9 +29,13 @@ header{
     z-index: 1;
 }
 
+#signup-main{
+    margin-top: -8vh;
+}
+
 #bg-img{
     width: 100vw;
-    margin-top: -60PX;
+    margin-top: -8vh;
 }
 
 #logo-image{
@@ -49,35 +53,47 @@ header{
 .navbar{
     animation: anim-opacity-99 525ms linear;
     transform-origin: 0px 0px;
-
+    height: 100%;
 }
 
 #card1{
     background-color: #ffffff;
+    border-width: 0;
  
 }
 
 #card2{
     background-image: url('../images/bg2.jpeg');
     background-size: 100vw;
- 
+    border-width: 0;
+
 
 }
 
 #card3{
     background-color: #ffffff;
- 
+    border-width: 0;
+
 }
 
 #card4{
     background-image: url('../images/bg5.jpeg');
     background-size: 100vw;
- 
-
+    border-width: 0;
 
 }
 
 
+#card4 h3{
+    color: #ffffff !important;
+    text-shadow: 0 0 3px #011b1f, 0 0 5px #011b1f;
+    text-transform: uppercase;
+}
+
+#card4 p{
+    color: #011b1f !important;
+    text-shadow: 0 0 3px #ccf8ff, 0 0 5px #ccf8ff;
+}
 
 .card-img-top{
     max-width: 50vw;
@@ -123,6 +139,14 @@ header{
 border-radius: 50%;
 }
 
+#celebrities-header-card{
+    border-width: 0;
+}
+
+#tog, #content { display: none }
+#tog:checked + #content { display: block }
+
+
 
 .dark-text{
     color:rgb(52, 51, 51) !important;
@@ -142,9 +166,9 @@ border-radius: 50%;
     background-image: url("../images/bg5.jpeg");
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
+    padding: 15vh 10% 0 10%;
     flex-grow: 1;
-    height: 88vh;
+    height: 92vh;
 }
 
 #signup-form {
@@ -234,6 +258,7 @@ footer{
     .navbar{
         background-color: #088395;
         position: relative!important;
+        height: 100%;
     }
     .navbar-brand p{
         display: inline;
@@ -263,3 +288,6 @@ footer{
 }
 
 
+#card1 img, #card3 img{
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5); 
+}
