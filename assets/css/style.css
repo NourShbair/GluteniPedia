@@ -30,7 +30,7 @@ header{
 }
 
 #bg-img{
-    max-width: 100vw;
+    width: 100vw;
     margin-top: -60PX;
 }
 
@@ -113,7 +113,6 @@ header{
 
 #recipes-header-card{
     border-width: 0;
-    margin-bottom: ;
 }
 .celebrity-img, .recipe-img{
     height: inherit;
@@ -228,34 +227,6 @@ footer{
         display: inline;
         margin-left: 38vw;
     }
-
-     /* Form 
-     #signup {
-        background-image: url("../images/bg5.jpeg");
-        background-size: cover;
-        background-position: 75%;
-        padding: 20px 10% 0 10%;
-        flex-grow: 1;
-    }
-
-    #signup-form {
-        max-width: 400px;
-        position: absolute;
-        left: 10%;
-        top: 150px;
-    }
-
-    .text-input:hover {
-        border-color: #f16c6b;
-    }
-
-    .join-button:hover {
-        background-color: #fafafa;
-        color: #454b1b;
-    }
-
-    */
-    
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -290,3 +261,5 @@ footer{
 .nav-link {
     color: white !important;
 }
+
+
