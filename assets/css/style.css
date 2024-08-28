@@ -139,6 +139,11 @@ header{
 border-radius: 50%;
 }
 
+.recipe-details-img{
+max-height: 60vh;
+object-fit: contain;
+}
+
 #celebrities-header-card{
     border-width: 0;
 }
@@ -290,4 +295,12 @@ footer{
 
 #card1 img, #card3 img{
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5); 
+}
+
+.recipe-content{
+    display: none;
+}
+
+:target{
+    display: inline;
 }
