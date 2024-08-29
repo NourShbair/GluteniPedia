@@ -1,16 +1,17 @@
 .alegreya-sans-sc-bold {
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 900;
-    font-style:normal;
-  }
+    font-style: normal;
+}
+
 
 /* Header */
-header{
+header {
     height: 8vh;
 }
 
-#menu-button{
-    display:none; 
+#menu-button {
+    display: none;
 }
 
 /* Nav toggle */
@@ -18,51 +19,62 @@ header{
     display: block;
     background-color: #088395;
 
+
 }
 
-.navbar:has(#menu-button:checked){
+.navbar:has(#menu-button:checked) {
     background-color: #088395;
     position: absolute;
     display: block;
     height: 100%;
     width: 100%;
     z-index: 1;
+    
+    
 }
 
-#signup-main{
+
+#signup-main {
     margin-top: -8vh;
 }
 
-#bg-img{
+#bg-img {
     width: 100vw;
     margin-top: -8vh;
 }
 
-#logo-image{
+#logo-image {
     max-width: 30px;
     max-height: 30px;
     margin-right: 5px;
     background-color: #ffffff;
     border-radius: 30%;
+    margin-left: 10px;
+
 }
 
-.navbar-nav{
+.navbar-nav {
     margin-left: 10px;
 }
 
-.navbar{
+.navbar {
     animation: anim-opacity-99 525ms linear;
     transform-origin: 0px 0px;
     height: 100%;
 }
 
-#card1{
-    background-color: #ffffff;
+#card1 {
+    /* background: linear-gradient(0deg, rgba(0,64,73,1) 0%, rgba(8,131,149,1) 0%, rgba(69,191,208,1) 15%, rgba(233,248,250,1) 53%, rgba(255,255,255,1) 71%); */
+    color: #011b1f;
     border-width: 0;
- 
+
 }
 
-#card2{
+/* #card1 h3, #card1 p{
+    color: white !important;    
+} */
+
+#card2 {
     background-image: url('../images/bg2.jpeg');
     background-size: 100vw;
     border-width: 0;
@@ -70,13 +82,13 @@ header{
 
 }
 
-#card3{
+#card3 {
     background-color: #ffffff;
     border-width: 0;
 
 }
 
-#card4{
+#card4 {
     background-image: url('../images/bg5.jpeg');
     background-size: 100vw;
     border-width: 0;
@@ -84,27 +96,27 @@ header{
 }
 
 
-#card4 h3{
+#card4 h3 {
     color: #ffffff !important;
     text-shadow: 0 0 3px #011b1f, 0 0 5px #011b1f;
     text-transform: uppercase;
 }
 
-#card4 p{
+#card4 p {
     color: #011b1f !important;
     text-shadow: 0 0 3px #ccf8ff, 0 0 5px #ccf8ff;
 }
 
-.card-img-top{
+.card-img-top {
     max-width: 50vw;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
 }
 
 
-.celebrity-div a{
+.celebrity-div a {
     display: block;
     height: 100%;
     width: 100%;
@@ -112,57 +124,69 @@ header{
 }
 
 
-.recipe-div a{
+.recipe-div a {
     display: block;
     height: 100%;
     width: 100%;
 }
 
 
-.celebrity-card-container,.celebrity-card,.recipe-card-container,.recipe-card{
+.celebrity-card-container,
+.celebrity-card,
+.recipe-card-container,
+.recipe-card {
     height: 100%;
 }
 
-.recipe-card{
+.recipe-card {
     border-width: 0;
 }
 
-#recipes-header-card{
+#recipes-header-card {
     border-width: 0;
 }
-.celebrity-img, .recipe-img{
+
+.celebrity-img,
+.recipe-img {
     height: inherit;
     object-fit: cover;
 }
 
-.recipe-img{
-border-radius: 50%;
+.recipe-img {
+    border-radius: 50%;
 }
 
-.recipe-details-img{
-max-height: 60vh;
-object-fit: contain;
+.recipe-details-img {
+    max-height: 60vh;
+    object-fit: contain;
+    border: 3px solid #161D6F;
 }
 
-#celebrities-header-card{
+#celebrities-header-card {
     border-width: 0;
 }
 
-#tog, #content { display: none }
-#tog:checked + #content { display: block }
-
-
-
-.dark-text{
-    color:rgb(52, 51, 51) !important;
+#tog,
+#content {
+    display: none
 }
 
-.light-text{
-    color:#ffffff !important;
+#tog:checked+#content {
+    display: block
 }
 
 
-.card-title{
+
+.dark-text {
+    color: rgb(52, 51, 51) !important;
+}
+
+.light-text {
+    color: #ffffff !important;
+}
+
+
+.card-title {
     text-align: center;
 }
 
@@ -216,56 +240,56 @@ object-fit: contain;
 
 
 /* Footer */
-footer{
+footer {
     height: 6vh;
 }
 
 #footer-bar {
 
-    background-color: #088395;
-    text-align: center;
+    /* background-color: #088395; */
+    background: linear-gradient(0deg, rgba(0,64,73,1) 0%, rgba(8,131,149,1) 0%, rgba(69,191,208,1) 73%, rgba(255,255,255,1) 100%);    text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    
+
     width: 100%;
     bottom: 0;
     margin: 0;
 }
 
 #footer-bar a {
-     
+
     color: #ffffff;
 }
 
-.navbar-brand p{
+.navbar-brand p {
     color: #161D6F !important;
     letter-spacing: 2.5px;
     display: none;
 }
 
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-
-}
+@media screen and (min-width: 576px) {}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    .navbar-brand p{
+    .navbar-brand p {
         display: inline;
-        margin-left: 38vw;
+        /*    margin-left: 38vw; */
     }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
- @media screen and (min-width: 992px) {
-    .navbar{
-        background-color: #088395;
-        position: relative!important;
+@media screen and (min-width: 992px) {
+    .navbar {
+        background: linear-gradient(180deg, rgba(0,64,73,1) 0%, rgba(8,131,149,1) 0%, rgba(69,191,208,1) 73%, rgba(255,255,255,1) 100%);
+
+        position: relative !important;
         height: 100%;
     }
-    .navbar-brand p{
+
+    .navbar-brand p {
         display: inline;
         margin-left: 0;
         color: #ffffff !important;
@@ -275,16 +299,17 @@ footer{
 
 }
 
-@media screen and (min-width: 1200px) {    
-    .navbar{
-        background-color: #088395;
-        position: relative!important;
+@media screen and (min-width: 1200px) {
+    .navbar {
+        /* background-color: #088395; */
+        position: relative !important;
+
+        background: linear-gradient(180deg, rgba(0,64,73,1) 0%, rgba(8,131,149,1) 0%, rgba(69,191,208,1) 73%, rgba(255,255,255,1) 100%);
     }
-    
-    .navbar-brand p{
-        color: #ffffff !important;       
+        .navbar-brand p {
+        color: #ffffff !important;
         display: inline;
-    
+
     }
 }
 
@@ -293,14 +318,34 @@ footer{
 }
 
 
-#card1 img, #card3 img{
-    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5); 
+#card1 img,
+#card3 img {
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
-.recipe-content{
+.recipe-content {
     display: none;
 }
 
-:target{
+:target {
     display: inline;
 }
+
+
+/* Initially hide the close icon */
+.menu-button-close {
+    display: none;
+    color: white;
+  }
+  
+  /* When the checkbox is checked, hide the open icon and show the close icon */
+  #menu-button:checked ~ label .menu-button-open {
+    display: none;
+  }
+  
+  #menu-button:checked ~ label .menu-button-close {
+    display: inline;
+  }
+  #menu-button:checked ~ label span {
+    border-color: white;
+  }
