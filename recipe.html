@@ -26,6 +26,9 @@
     <!-- Linking CSS Styling -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+        <!-- Linking FontAwosome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+
 
 <body>
 
@@ -42,7 +45,13 @@
                 </a>
 
                 <input id="menu-button" type="checkbox">
-                <label for="menu-button"><span class="navbar-toggler-icon navbar-toggler"></span></label>
+                <label for="menu-button">
+                  <span class="navbar-toggler">
+                    <span class="fas fa-bars menu-button-open"></span>
+                    <span class="fas fa-xmark menu-button-close"></span>
+                  </span>
+        
+                </label>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -72,15 +81,15 @@
     </header>
 
     <!-- Main Section -->
-    <main>
+    <main id="recipe-main-section">
 
         <!-- Section for (Cold Cucumber Soup) Recipe -->
         <div class="recipe-content" id="one">
             <div class="card card-light" id="recipes-header-card">
+                <h3 class="card-title dark-text">Cold Cucumber Soup</h3>
                 <img src="assets/images/recipes/cold-cucumber-soup.jpg" class="card-img-top recipe-details-img"
                     alt="...">
                 <div class="card-body">
-                    <h3 class="card-title dark-text">Cold Cucumber Soup</h3>
                     <p class="card-body dark-text">Here you are the how to make this delicious recipe:</p>
 
                     <h4 class="card-body">Ingredients:</h4>
@@ -147,10 +156,10 @@
         <!-- Section for (Raspberry Mousse) Recipe -->
         <div class="recipe-content" id="two">
             <div class="card card-light" id="recipes-header-card">
+                <h3 class="card-title dark-text">Raspberry Mousse</h3>
                 <img src="assets/images/recipes/raspberry-mousse.webp" class="card-img-top recipe-details-img"
                     alt="...">
                 <div class="card-body">
-                    <h3 class="card-title dark-text">Raspberry Mousse</h3>
                     <p class="card-body dark-text">Here you are the how to make this delicious recipe:</p>
 
                     <h4 class="card-body">Ingredients:</h4>
@@ -209,9 +218,10 @@
         <!-- Section for (Zucchini Lasagna) Recipe -->
         <div class="recipe-content" id="three">
             <div class="card card-light" id="recipes-header-card">
+                <h3 class="card-title dark-text">Zucchini Lasagna</h3>
+
                 <img src="assets/images/recipes/zucchini-lasagna.jpg" class="card-img-top recipe-details-img" alt="...">
                 <div class="card-body">
-                    <h3 class="card-title dark-text">Zucchini Lasagna</h3>
                     <p class="card-body dark-text">Here you are the how to make this delicious recipe:</p>
 
                     <h4 class="card-body">Ingredients:</h4>
