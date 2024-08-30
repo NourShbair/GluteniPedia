@@ -357,6 +357,10 @@ footer {
     #about-div,#privacy-policy-div{
         margin-top: 5vh;
     }
+
+    .landing-page-card-container{
+        margin-top: 4rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -388,6 +392,10 @@ footer {
 
     #about-div,#privacy-policy-div{
         margin-top: 5vh;
+    }
+
+    .landing-page-card-container{
+        margin-top: 10rem;
     }
 }
 
