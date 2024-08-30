@@ -139,7 +139,7 @@ header {
 
 }
 
-#lp-div1-img{
+.lp-div-img{
     max-width: 50vw;
 }
 
@@ -297,7 +297,6 @@ footer {
 @media screen and (min-width: 768px) {
     .navbar-brand p {
         display: inline;
-        color: #ffffff !important;
     }
 
     .card-img-top {
@@ -333,7 +332,7 @@ footer {
         margin-top: 30px;
     }
 
-    #lp-div1-img{
+    .lp-div-img{
         max-width: 35vw;
     }
 
@@ -361,7 +360,7 @@ footer {
         display: inline;
     }
 
-    #lp-div1-img{
+    .lp-div-img{
         max-width: 35vw;
     }
 
