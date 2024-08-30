@@ -87,7 +87,10 @@ header {
     margin-top: 20px;
 }
 
-
+#diagnose-card{
+    border-width: 0;
+    margin-top: 4vh;
+}
 .celebrity-div a {
     display: block;
     height: 100%;
@@ -202,7 +205,7 @@ header {
     color: #fafafa;
     margin-bottom: 20px;
 }
-
+ 
 .text-input {
     background: transparent;
     color: #fafafa;
@@ -237,10 +240,12 @@ header {
 
 
 .video-player{
-width: 50vw;
-height: 28vw;
-margin-left: 25vw;
+width: 70vw;
+height: 39vw;
+margin: 0 auto;
+margin-bottom: 2vh;
 }
+
 /* Footer */
 footer {
     height: 6vh;
@@ -290,6 +295,12 @@ footer {
         color: #ffffff !important;
     }
     
+    .video-player{
+        width: 60vw;
+        height: 33vw;
+        margin-left: 20vw;
+        margin-bottom: 2vh;
+        }
 
 }
 
@@ -338,6 +349,12 @@ footer {
     .landing-page-card-container{
         margin-top: 4rem;
     }
+
+    .video-player{
+        width: 50vw;
+        height: 28vw;
+        margin-bottom: 2vh;
+        }
 }
 
 @media screen and (min-width: 1200px) {
@@ -374,6 +391,14 @@ footer {
     .landing-page-card-container{
         margin-top: 10rem;
     }
+
+    .video-player{
+        width: 50vw;
+        height: 28vw;
+        margin-bottom: 2vh;
+        margin: 0 auto;
+
+        }
 }
 
 
