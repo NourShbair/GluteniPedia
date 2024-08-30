@@ -297,11 +297,17 @@ footer {
 @media screen and (min-width: 768px) {
     .navbar-brand p {
         display: inline;
+        color: #ffffff !important;
     }
 
     .card-img-top {
         max-width: 60vw;
     }
+
+    #menu-button:checked~.navbar-brand p {
+        color: #ffffff !important;
+    }
+    
 
 }
 
@@ -404,6 +410,7 @@ footer {
     border-color: white;
     border-width: 0;
 }
+
 
 /* Initially hide the close icon */
 .menu-button-close::before {
