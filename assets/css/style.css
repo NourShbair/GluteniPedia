@@ -18,8 +18,6 @@ header {
 #menu-button:checked~#navbarSupportedContent {
     display: block;
     background-color: #088395;
-
-
 }
 
 .navbar:has(#menu-button:checked) {
@@ -29,12 +27,10 @@ header {
     height: 100%;
     width: 100%;
     z-index: 1;
-
-
 }
 
-.container-fluid{
-    margin-top: 20px;
+.container-fluid {
+    /* margin-top: 20px; */
 }
 
 #signup-main {
@@ -53,7 +49,6 @@ header {
     background-color: #ffffff;
     border-radius: 30%;
     margin-left: 10px;
-
 }
 
 .navbar-nav {
@@ -67,37 +62,38 @@ header {
 }
 
 #card1 {
-    /* background: linear-gradient(0deg, rgba(0,64,73,1) 0%, rgba(8,131,149,1) 0%, rgba(69,191,208,1) 15%, rgba(233,248,250,1) 53%, rgba(255,255,255,1) 71%); */
     color: #011b1f;
     border-width: 0;
+    margin-top:8vh;
 
 }
 
-/* #card1 h3, #card1 p{
-    color: white !important;    
-} */
-
-#card2 {
+/* #card2 {
     background-image: url('../images/bg2.jpeg');
     background-size: 100vw;
-    border-width: 0;
+    border-width: 0; 
 
 
-}
+}*/
 
 #card3 {
     background-color: #ffffff;
     border-width: 0;
+    margin-top:8vh;
 
 }
 
-#card4 {
+#card3 img{
+   margin-top: 0; 
+}
+#card3 h3{
+    margin-bottom: 0;
+}
+/* #card4 {
     background-image: url('../images/bg5.jpeg');
     background-size: 100vw;
     border-width: 0;
-
-}
-
+} 
 
 #card4 h3 {
     color: #ffffff !important;
@@ -110,6 +106,7 @@ header {
     text-shadow: 0 0 3px #ccf8ff, 0 0 5px #ccf8ff;
 }
 
+*/
 .card-img-top {
     max-width: 70vw;
     display: block;
@@ -142,11 +139,11 @@ header {
     height: 100%;
 }
 
-.recipe-card {
-    border-width: 0;
-}
 
-#recipes-header-card {
+
+.recipe-card,
+#recipes-header-card,
+#celebrities-header-card {
     border-width: 0;
 }
 
@@ -166,12 +163,8 @@ header {
     max-height: 60vh;
     object-fit: contain;
     border-width: 0;
-    /* border: 1px solid #161D6F; */
 }
 
-#celebrities-header-card {
-    border-width: 0;
-}
 
 #tog,
 #content {
@@ -181,7 +174,6 @@ header {
 #tog:checked+#content {
     display: block
 }
-
 
 
 .dark-text {
@@ -272,7 +264,7 @@ footer {
 }
 
 .navbar-brand p {
-    color: #45bfd0!important;
+    color: #45bfd0 !important;
     letter-spacing: 2.5px;
     display: none;
 }
@@ -284,7 +276,6 @@ footer {
 @media screen and (min-width: 768px) {
     .navbar-brand p {
         display: inline;
-        /*    margin-left: 38vw; */
     }
 
     .card-img-top {
@@ -296,7 +287,6 @@ footer {
 @media screen and (min-width: 992px) {
     .navbar {
         background: linear-gradient(180deg, rgba(0, 64, 73, 1) 0%, rgba(8, 131, 149, 1) 0%, rgba(69, 191, 208, 1) 73%, rgba(255, 255, 255, 1) 100%);
-
         position: relative !important;
         height: 100%;
     }
@@ -305,16 +295,13 @@ footer {
         display: inline;
         margin-left: 0;
         color: #ffffff !important;
-
-
     }
-
 
     .card-img-top {
         max-width: 50vw;
     }
 
-    #recipe-main-section{
+    #recipe-main-section {
         margin-top: 30px;
     }
 
@@ -322,16 +309,13 @@ footer {
 
 @media screen and (min-width: 1200px) {
     .navbar {
-        /* background-color: #088395; */
         position: relative !important;
-
         background: linear-gradient(180deg, rgba(0, 64, 73, 1) 0%, rgba(8, 131, 149, 1) 0%, rgba(69, 191, 208, 1) 73%, rgba(255, 255, 255, 1) 100%);
     }
 
     .navbar-brand p {
         color: #ffffff !important;
         display: inline;
-
     }
 }
 
@@ -342,7 +326,7 @@ footer {
 
 #card1 img,
 #card3 img {
-    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5); */
 }
 
 .recipe-content {
@@ -364,9 +348,17 @@ footer {
 
 #menu-button:checked~label span {
     border-color: white;
+    border-width: 0;
 }
+
 /* Initially hide the close icon */
 .menu-button-close::before {
     display: none;
     color: white;
 }
+
+.menu-button-close{
+    margin-top: 20px;     
+    margin-right: 2px;
+}
+
