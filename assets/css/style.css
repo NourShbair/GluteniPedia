@@ -33,7 +33,7 @@ header {
     /* margin-top: 20px; */
 }
 
-#signup-main {
+#subscribe-main {
     margin-top: -8vh;
 }
 
@@ -211,7 +211,7 @@ header {
 }
 
 /* Form */
-#signup {
+#subscribe {
     background-image: url("../images/bg5.jpeg");
     background-size: cover;
     background-position: 75%;
@@ -220,13 +220,13 @@ header {
     height: 92vh;
 }
 
-#signup-form {
+#subscribe-form {
     color: #ffffff;
     background-color: rgba(21, 41, 41, 0.6);
     padding: 30px;
 }
 
-#signup-form>h2 {
+#subscribe-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -439,3 +439,69 @@ footer {
     margin-right: 2px;
 }
 
+
+
+
+
+  #slideshow {
+    text-align: center;
+    overflow: hidden;
+    height: 56vw;
+    max-height: 510px;
+    width: 80vw;
+    max-width: 728px;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+    margin-top: 5vh;
+
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 56vw;
+    width: 80vw;
+  }
+  
+  .slide:nth-child(1) {
+    background: #D93B65;
+  }
+  
+  .slide:nth-child(2) {
+    background: #037E8C;
+  }
+  
+  .slide:nth-child(3) {
+    background: #36BF66;
+  }
+  
+  .slide:nth-child(4) {
+    background: #D9D055;
+  }
+  
+  .slide-number {
+    color: #000;
+    text-align: center;
+    font-size: 10em;
+  }
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -80vw;}
+    50% {margin-left: -80vw;}
+    60% {margin-left: -160vw;}
+    70% {margin-left: -160vw;}
+    80% {margin-left: -240vw;}
+    90% {margin-left: -240vw;}
+  }
+  
+  #slideshow-caption{
+    align-content: center;
+    text-align: center;
+    margin-bottom: 5vh;
+
+  }
