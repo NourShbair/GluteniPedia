@@ -131,7 +131,13 @@ header {
     text-decoration: none;
 }
 
+.landing-page-div a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
 
+}
 .celebrity-card-container,
 .celebrity-card,
 .recipe-card-container,
