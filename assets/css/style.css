@@ -258,10 +258,12 @@ header {
 }
 
 
-#about-div{
+#about-div, #privacy-policy-div{
     margin-left: 10vw;
     margin-right: 10vw;
 }
+
+
 /* Footer */
 footer {
     height: 6vh;
@@ -352,7 +354,7 @@ footer {
         display: inline;
     }
 
-    #about-div{
+    #about-div,#privacy-policy-div{
         margin-top: 5vh;
     }
 }
@@ -384,7 +386,7 @@ footer {
         display: inline;
     }
 
-    #about-div{
+    #about-div,#privacy-policy-div{
         margin-top: 5vh;
     }
 }
