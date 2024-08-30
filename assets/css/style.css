@@ -138,6 +138,20 @@ header {
     text-decoration: none;
 
 }
+
+#lp-div1-img{
+    max-width: 50vw;
+}
+
+
+.lp-div-img-vertical{
+    display: inline;
+}
+
+.lp-div-img-horizontal{
+    display: none;
+}
+
 .celebrity-card-container,
 .celebrity-card,
 .recipe-card-container,
@@ -170,6 +184,7 @@ header {
     object-fit: contain;
     border-width: 0;
 }
+
 
 
 #tog,
@@ -287,6 +302,7 @@ footer {
     .card-img-top {
         max-width: 60vw;
     }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -311,6 +327,21 @@ footer {
         margin-top: 30px;
     }
 
+    #lp-div1-img{
+        max-width: 35vw;
+    }
+
+    .landing-page-div{
+        margin-bottom: 40px;
+    }
+
+    .lp-div-img-vertical{
+        display: none;
+    }
+
+    .lp-div-img-horizontal{
+        display: inline;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -323,7 +354,24 @@ footer {
         color: #ffffff !important;
         display: inline;
     }
+
+    #lp-div1-img{
+        max-width: 35vw;
+    }
+
+    .landing-page-div{
+        margin-bottom: 40px;
+    }
+
+    .lp-div-img-vertical{
+        display: none;
+    }
+
+    .lp-div-img-horizontal{
+        display: inline;
+    }
 }
+
 
 .nav-link {
     color: white !important;
