@@ -34,7 +34,7 @@ header {
 }
 
 #bg-img {
-    width: 100vw;
+    width: 100%;
     margin-top: -8vh;
 }
 
@@ -137,7 +137,7 @@ header {
 
 
 .recipe-card,
-#recipes-header-card,
+.recipes-header-card,
 #celebrities-header-card {
     border-width: 0;
 }
@@ -399,6 +399,7 @@ footer {
         margin: 0 auto;
 
         }
+        
 }
 
 
