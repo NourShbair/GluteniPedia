@@ -82,8 +82,8 @@
   <!-- Main Section -->
   <main id="subscribe-main">
     <section id="subscribe">
-        <form id="subscribe-form" method="POST" action="https://formdump.codeinstitute.net">
-            <h2><i class="fa-solid fa-heartbeat"></i> Let's get you signed up!</h2>
+        <form id="subscribe-form" action="subscription-confirmation.html">
+            <h2><i class="fa-solid fa-wheat-awn-circle-exclamation"></i> Let's subscribe to our monthly newsletter!</h2>
             <label for="first-name">First Name</label>
             <input type="text" name="first_name" id="first-name" class="text-input" required>
             <br>
@@ -93,21 +93,22 @@
             <label for="email-address">Email Address</label>
             <input type="email" name="email_address" id="email-address" class="text-input" required>
             <br>
+            <p>Please select your category:</p>
             <div class="radio-buttons">
                 <div>
-                    <label for="road">Road</label>
-                    <input type="radio" name="running_preference" id="road" value="road" required checked>
+                    <label for="allergic">Allergic</label>
+                    <input type="radio" name="subscription_preference" id="allergic" value="allergic" required checked>
                 </div>
                 <div>
-                    <label for="trail">Trail</label>
-                    <input type="radio" name="running_preference" id="trail" value="trail" required>
+                    <label for="relative">Relative</label>
+                    <input type="radio" name="subscription_preference" id="relative" value="relative" required>
                 </div>
                 <div>
-                    <label for="both">Both</label>
-                    <input type="radio" name="running_preference" id="both" value="both" required>
+                    <label for="friend">Friend</label>
+                    <input type="radio" name="subscription_preference" id="friend" value="friend" required>
                 </div>
             </div>
-            <button type="submit" class="join-button">Let's Run!</button>
+            <button type="submit" class="join-button">Subscribe!</button>
         </form>
     </section>
     </main>
