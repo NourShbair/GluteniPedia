@@ -35,23 +35,21 @@
     <!-- Nav Bar inspired by BootStrap -->
     <nav class="navbar navbar-expand-lg container-fullwidth">
       <div class="container-fluid">
-
         <a class="navbar-brand alegreya-sans-sc-bold" href="#">
           <img src="assets/images/logo.png" id="logo-image" alt="logo image beside website name">
           <p>GluteniPedia</p>
         </a>
 
-
+        <!-- Make the menu button clickable to open and hide the menu-->
         <input id="menu-button" type="checkbox">
         <label for="menu-button">
           <span class="navbar-toggler">
             <span class="fas fa-bars menu-button-open"></span>
             <span class="fas fa-xmark menu-button-close"></span>
           </span>
-
         </label>
 
-
+        <!-- Menu items -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -62,7 +60,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="diagnose.html">Diagnose</a>
+              <a class="nav-link" href="404.html">Diagnose</a>
             </li>
 
             <li class="nav-item">
@@ -76,20 +74,20 @@
         </div>
       </div>
     </nav>
-
   </header>
 
   <!-- Main Section -->
   <main>
-
+    <!-- Home page background image -->
     <img src="assets/images/family-gathering-to-eat.jpg" id="bg-img" alt="family eating together">
 
+    <!-- Use bootstrap grid -->
     <div class="container text-center">
       <div class="row g-2">
 
-
+        <!-- First section with image and descriptopn and directing link to diagnose page -->
         <div class="col-sm-12 col-md-12 col-lg-6 landing-page-div">
-          <a href="diagnose.html" target="_blank" class="">
+          <a href="diagnose.html" target="_blank">
             <div>
               <img src="assets/images/gluten-samples.jpg" class="lp-div-img" alt="...">
             </div>
@@ -116,10 +114,11 @@
         </div>
 
 
-
-
+        <!-- Second section with image and descriptopn and directing link to symptoms page -->
+         <!-- This div should appear only when device is mobile or tablet when the column contain one div only
+          and hide it in other devices to show the "lp-div-img-horizontal" div-->
         <div class="col-sm-12 col-md-12 col-lg-6 landing-page-div lp-div-img-vertical">
-          <a href="diagnose.html" target="_blank" class="">
+          <a href="diagnose.html" target="_blank">
             <div>
               <img src="assets/images/symptoms-1.jpg" class="lp-div-img" alt="...">
             </div>
@@ -143,8 +142,10 @@
           </div>
         </div>
 
+          <!-- This div should appear only in devices when the column contain two divs beside each other
+          and hide it in other devices to show the "lp-div-img-vertical" div-->
         <div class="col-sm-12 col-md-12 col-lg-6 landing-page-div lp-div-img-horizontal">
-          <a href="diagnose.html" target="_blank" class="">
+          <a href="diagnose.html" target="_blank">
             <div>
               <img src="assets/images/symptoms-1.jpg" class="lp-div-img" alt="...">
             </div>
@@ -152,9 +153,9 @@
         </div>
 
 
-
+        <!-- Third section with image and descriptopn and directing link to recipe page -->
         <div class="col-sm-12 col-md-12 col-lg-6 landing-page-div">
-          <a href="recipes.html" target="_blank" class="">
+          <a href="recipes.html" target="_blank">
             <div>
               <img src="assets/images/having-dinner-on-table.jpg" class="lp-div-img" alt="...">
             </div>
@@ -180,45 +181,43 @@
 
 
 
-
+    <!-- Slide show to present brands support gluten free -->
     <div id="slideshow">
       <div class="slide-wrapper">
-
-
         <div class="slide">
-          <img src="assets/images/brands/schar-logo.jpg" alt="" class="slideshow-img">
+          <img src="assets/images/brands/schar-logo.jpg" alt="schar gluten free products" class="slideshow-img">
         </div>
 
         <div class="slide">
-          <img src="assets/images/brands/yoplait-logo.jpg" alt="" class="slideshow-img">
+          <img src="assets/images/brands/yoplait-logo.jpg" alt="yoplait gluten free products" class="slideshow-img">
         </div>
 
         <div class="slide">
-          <img src="assets/images/brands/free-from-tesco-brand.jpg" alt="" class="slideshow-img">
+          <img src="assets/images/brands/free-from-tesco-brand.jpg" alt="tesco products under name 'free from'" class="slideshow-img">
         </div>
 
         <div class="slide">
-          <img src="assets/images/brands/promise-logo.png" alt="" class="slideshow-img">
+          <img src="assets/images/brands/promise-logo.png" alt="promise gluten free products" class="slideshow-img">
         </div>
 
         <div class="slide">
-          <img src="assets/images/brands/red-mill-logo.jpg" alt="" class="slideshow-img">
+          <img src="assets/images/brands/red-mill-logo.jpg" alt="red mil gluten free products" class="slideshow-img">
         </div>
 
         <div class="slide">
-          <img src="assets/images/brands/livegfree_logo.jpg" alt="" class="slideshow-img">
+          <img src="assets/images/brands/livegfree_logo.jpg" alt="live g free gluten free products" class="slideshow-img">
         </div>
 
         <div class="slide">
-          <img src="assets/images/brands/nairns-logo.png" alt="" class="slideshow-img">
+          <img src="assets/images/brands/nairns-logo.png" alt="narins gluten free products" class="slideshow-img">
         </div>
 
         <div class="slide">
-          <img src="assets/images/brands/nakd-logo.jpg" alt="" class="slideshow-img">
+          <img src="assets/images/brands/nakd-logo.jpg" alt="nakd gluten free products" class="slideshow-img">
         </div>
 
         <div class="slide">
-          <img src="assets/images/brands/barilla-logo.jpg" alt="" class="slideshow-img">
+          <img src="assets/images/brands/barilla-logo.jpg" alt="barilla gluten free products" class="slideshow-img">
         </div>
       </div>
     </div>
@@ -231,34 +230,32 @@
     <ul id="footer-bar">
 
       <li>
-        <a href="https://github.com/NourShbair/" target="_blank" rel="noopener" aria-label="">
+        <a href="https://github.com/NourShbair/" target="_blank" rel="noopener" aria-label="github account for the site developer">
           <i class="fa-brands fa-github"></i>
         </a>
       </li>
 
       <li>
-        <a href="https://www.linkedin.com/in/nourshbair/" target="_blank" rel="noopener" aria-label="">
-          <i class="fa-brands fa-linkedin-in"></i>  
-        </a>
-      </li>
-      
-      <li>
-        <a href="about.html" rel="noopener" aria-label="">
-          <i class="fa-solid fa-circle-info"></i>  
+        <a href="https://www.linkedin.com/in/nourshbair/" target="_blank" rel="noopener" aria-label="linkedin account for the site developer">
+          <i class="fa-brands fa-linkedin-in"></i>
         </a>
       </li>
 
       <li>
-        <a href="privacy-policy.html" rel="noopener" aria-label="">
+        <a href="about.html" rel="noopener" aria-label="about us">
+          <i class="fa-solid fa-circle-info"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="privacy-policy.html" rel="noopener" aria-label="our privacy policy">
           <i class="fas fa-file-signature"></i>
         </a>
       </li>
 
-
     </ul>
-
-
   </footer>
+
 </body>
 
 </html>
