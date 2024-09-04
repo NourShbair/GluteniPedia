@@ -4,6 +4,37 @@
     font-style: normal;
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInDown {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 
 /* Header */
 header {
@@ -37,6 +68,8 @@ header {
     width: 100%;
     margin-top: -8vh;
     object-fit: contain;
+    animation: fadeIn 0.3s ease-in-out;
+
 }
 
 
@@ -58,7 +91,7 @@ header {
     bottom: 0;
 }
 
-#error-msg {
+/* #error-msg {
     margin-top: 6vh;
     margin-bottom: 6vh;
     margin-left: 4vw;
@@ -80,15 +113,62 @@ header {
 
 #redirect-links {
     /* list-style-type: none; */
-    text-decoration: none;
-    text-align: left;
+    /* text-decoration: none; */
+    /* text-align: left; */
+/* } */
+
+/* #redirect-links a{ */
+    /* text-decoration: none; */
+    /* color:#45bfd0 ; */
+/* } */ 
+
+.error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
 }
 
-#redirect-links a{
-    text-decoration: none;
-    color:#45bfd0 ;
+.error-image {
+    max-width: 300px;
+    margin-bottom: 2rem;
+    animation: slideInUp 1s ease-in-out;
 }
 
+.error-message {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    animation: slideInDown 1s ease-in-out;
+}
+
+.error-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    animation: slideInUp 1s ease-in-out;
+}
+
+.redirect-links {
+    list-style-type: none;
+    padding: 0;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.redirect-links li {
+    margin-bottom: 0.5rem;
+}
+
+.redirect-links a {
+    text-decoration: none;
+    color: #45bfd0;
+    transition: color 0.3s ease-in-out;
+}
+
+.redirect-links a:hover {
+    color: #088395;
+}
 
 
 #logo-image {
@@ -105,9 +185,10 @@ header {
 }
 
 .navbar {
-    animation: anim-opacity-99 525ms linear;
+    animation: slideInDown 1.3s ease-in-out;
     transform-origin: 0px 0px;
     height: 100%;
+    
 }
 
 #card1 {
