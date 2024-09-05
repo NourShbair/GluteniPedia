@@ -35,7 +35,19 @@
     }
 }
 
+.fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+}
 
+.slide-in-up{
+    animation: slideInUp 1.3s ease-in-out;
+
+}
+
+.slide-in-down{
+    animation: slideInDown 1.3s ease-in-out;
+
+}
 /* Header */
 header {
     height: 8vh;
@@ -68,7 +80,6 @@ header {
     width: 100%;
     margin-top: -8vh;
     object-fit: contain;
-    animation: fadeIn 0.3s ease-in-out;
 
 }
 
@@ -127,33 +138,30 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 85vh;
     text-align: center;
-    animation: fadeIn 1s ease-in-out;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .error-image {
     max-width: 300px;
     margin-bottom: 2rem;
-    animation: slideInUp 1s ease-in-out;
 }
 
 .error-message {
     font-size: 2rem;
     margin-bottom: 1rem;
-    animation: slideInDown 1s ease-in-out;
 }
 
 .error-description {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-    animation: slideInUp 1s ease-in-out;
 }
 
 .redirect-links {
     list-style-type: none;
     padding: 0;
-    animation: fadeIn 1s ease-in-out;
 }
 
 .redirect-links li {
