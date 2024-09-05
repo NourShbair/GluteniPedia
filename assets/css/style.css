@@ -248,8 +248,7 @@ header {
     display: none;
 }
 
-.celebrity-card-container,
-.celebrity-card,
+
 .recipe-card-container,
 .recipe-card {
     height: 100%;
@@ -263,7 +262,7 @@ header {
     border-width: 0;
 }
 
-.celebrity-img,
+
 .recipe-img {
     height: inherit;
     object-fit: cover;
@@ -281,6 +280,15 @@ header {
     border-width: 0;
 }
 
+
+.celebrity-img {
+    height: inherit;
+    object-fit: contain;
+}
+
+.celebrity-div{
+
+}
 
 
 #tog,
