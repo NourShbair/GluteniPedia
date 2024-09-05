@@ -61,6 +61,8 @@ header {
 #menu-button:checked~#navbarSupportedContent {
     display: block;
     background-color: #088395;
+    animation: slideInUp 1.3s ease-in-out;
+
 }
 
 .navbar:has(#menu-button:checked) {
