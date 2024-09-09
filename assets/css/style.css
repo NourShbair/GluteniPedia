@@ -67,7 +67,7 @@ header {
 
 .navbar:has(#menu-button:checked) {
     background-color: #088395;
-    position: absolute;
+    position: fixed;
     display: block;
     height: 100%;
     width: 100%;
