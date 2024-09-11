@@ -60,7 +60,7 @@ header {
 /* Nav toggle */
 #menu-button:checked~#navbarSupportedContent {
     display: block;
-    background: linear-gradient(180deg, rgba(0, 64, 73, 1) 0%, rgba(8, 131, 149, 1) 0%, rgba(69, 191, 208, 1) 73%, rgba(255, 255, 255, 1) 100%);
+    /* background: linear-gradient(180deg, rgba(0, 64, 73, 1) 0%, rgba(8, 131, 149, 1) 0%, rgba(69, 191, 208, 1) 73%, rgba(255, 255, 255, 1) 100%); */
     animation: slideInUp 1.3s ease-in-out;
 
 }

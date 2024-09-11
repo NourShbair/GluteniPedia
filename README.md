@@ -225,12 +225,14 @@ You can fork this repository by using the following steps:
 | [LoveRunning](https://github.com/Code-Institute-Solutions/love-running-v3) | Subscription Page | get inspired by the form used in LoveRunning app |
 | [CODEPEN](https://codepen.io/gradar/pen/BaavLLo) | Home Page | brands slideshow with HTML and CSS only |
 | [CODEPEN](https://codepen.io/gradar/pen/BaavLLo) | Confirm Subscription Page | countdown with HTML and CSS only |
-| [Youtube](https://www.youtube.com/watch?v=-TCcJ4ap05o) | Navbar Menu Button | Collapsible DIV With HTML CSS Only |
+| [Youtube](https://www.youtube.com/watch?v=-TCcJ4ap05o) | Navbar Menu Button | collapsible DIV With HTML CSS Only |
+| [W3Schools](https://www.w3schools.com/w3css/w3css_animate.asp) | Entire Site | add some animation to elements|
+
 
 
 ### Acknowledgements
 
-- I would like to thank my partner [Ahmad ElShareif](https://github.com/Ahmah2009), for always believing in me, and encouraging me to make this 'transition' into web development.
+- I would like to thank my husband [Ahmad ElShareif](https://www.linkedin.com/in/ahmah2009/), for always believing in me, and encouraging me to make this 'transition' into web development.
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
