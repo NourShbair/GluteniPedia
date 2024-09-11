@@ -220,6 +220,7 @@ You can fork this repository by using the following steps:
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Bootstrap](https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works) | Entire Site | responsive navbar |
+| [ChatGPT](https://chatgpt.com) | Site Logo | generate GluteniPedia Logo |
 | [Bootstrap](https://getbootstrap.com/docs/5.3/layout/grid/#nesting) | Home - Celebrities - Recipes Pages | responsive grid |
 | [W3Schools](https://www.w3schools.com/cssref/sel_target.php) | Recipes Page | redirct to recipe page using #id and :target |
 | [LoveRunning](https://github.com/Code-Institute-Solutions/love-running-v3) | Subscription Page | get inspired by the form used in LoveRunning app |
