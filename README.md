@@ -68,7 +68,6 @@ I used [coolors.co](https://coolors.co/000505-088395-fefcfd) to generate my colo
     - Discover a variety of delicious, easy-to-follow gluten-free recipes that cater to different tastes and dietary needs. From snacks to full meals, our recipe section is packed with creative ideas to make gluten-free living both healthy and enjoyable.
 
 ![screenshot](documentation/features/recipes-mockup.png)
-![screenshot](documentation/features/recipe-mockup.png)
 
 
 - **Celebrities on a Gluten-Free Diet**
@@ -88,7 +87,6 @@ I used [coolors.co](https://coolors.co/000505-088395-fefcfd) to generate my colo
     - Never miss an update! Subscribe to our newsletter to receive the latest articles, recipes, and tips on gluten-free living directly in your inbox. Our newsletter is designed to keep you informed and inspired on your gluten-free journey.
 
 ![screenshot](documentation/features/subscription-mockup.png)
-![screenshot](documentation/features/confirmation-mockup.png)
 
 
 - **About Page**
