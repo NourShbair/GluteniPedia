@@ -57,11 +57,15 @@ I used [coolors.co](https://coolors.co/000505-088395-fefcfd) to generate my colo
 
 ![screenshot](documentation/features/gluten-mockup.png)
 
+##
+
 - **Diagnosing Gluten-Related Conditions**
 
     - Explore the different methods and tests used to diagnose gluten-related diseases like celiac disease and gluten sensitivity. We provide information on symptoms to watch for, medical tests available, and the steps involved in obtaining an accurate diagnosis.
 
 ![screenshot](documentation/features/diagnose-mockup.png)
+
+##
 
 - **Gluten-Free Recipes**
 
@@ -69,6 +73,7 @@ I used [coolors.co](https://coolors.co/000505-088395-fefcfd) to generate my colo
 
 ![screenshot](documentation/features/recipes-mockup.png)
 
+##
 
 - **Celebrities on a Gluten-Free Diet**
 
@@ -76,11 +81,15 @@ I used [coolors.co](https://coolors.co/000505-088395-fefcfd) to generate my colo
 
 ![screenshot](documentation/features/celebrities-mockup.png)
 
+##
+
 - **Brands Supporting Gluten-Free Options**
 
     - Stay informed about brands that offer gluten-free products. We showcase a variety of companies committed to providing safe, gluten-free options for those with dietary restrictions, making your shopping experience easier.
 
 ![screenshot](documentation/features/brands-mockup.png)
+
+##
 
 - **Subscribe to Our Newsletter**
 
@@ -88,6 +97,7 @@ I used [coolors.co](https://coolors.co/000505-088395-fefcfd) to generate my colo
 
 ![screenshot](documentation/features/subscription-mockup.png)
 
+##
 
 - **About Page**
 
@@ -95,6 +105,7 @@ I used [coolors.co](https://coolors.co/000505-088395-fefcfd) to generate my colo
 
 ![screenshot](documentation/features/about-mockup.png)
 
+##
 
 - **Privacy Policy Page**
 
@@ -102,16 +113,21 @@ I used [coolors.co](https://coolors.co/000505-088395-fefcfd) to generate my colo
 
 ![screenshot](documentation/features/privacy-policy-mockup.png)
 
+##
 
 - **Error Page**
 
     - If you happen to land on a page that doesn’t exist, don’t worry! Our custom error page will help guide you back to the right place, ensuring a smooth and frustration-free browsing experience.
 
 ![screenshot](documentation/features/error-mockup.png)
+
+
+
 GluteniPedia is designed to be a one-stop resource for all things gluten-related, offering information, support, and inspiration for anyone affected by gluten-related health issues or those supporting someone who is.
 
 
-### Future Features
+
+## Future Features
 - RTL Support: Arabic Language
     - To make GluteniPedia accessible to a wider audience, we plan to introduce full Arabic language support, which includes implementing a Right-to-Left (RTL) layout for optimal readability. This change will allow us to cater to Arabic-speaking individuals and ensure that the website functions seamlessly in both languages, offering the same great experience regardless of the user’s language preference. This involves adapting the site’s design, text alignment, and navigation to properly support RTL content.
 - Community for Users
