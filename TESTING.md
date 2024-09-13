@@ -1,5 +1,4 @@
 # Testing
-
 > [!NOTE]  
 > Return back to the [README.md](README.md) file.
 
@@ -7,11 +6,8 @@ Through our comprehensive testing process, we have meticulously examined the fun
 
 This rigorous process allows us to legitimately believe that **GluteniPedia** is well-tested, reliable, and ready to meet the needs of its users.
 
-
 ## Code Validation
-
 ### HTML
-
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
 | Directory | File | Screenshot | Notes |
@@ -28,7 +24,6 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 |  | subscription-confirmation.html | ![screenshot](documentation/validation/confirmation-validate.png) | |
 
 ### CSS
-
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
 | Directory | File | Screenshot | Notes |
@@ -36,9 +31,6 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 | assets | style.css | ![screenshot](documentation/validation/css-validate.png) | |
 
 ## Browser Compatibility
-
-
-
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
 | Browser | Home | Recipes | Celebrities | Subscribe | Notes |
@@ -47,10 +39,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Firefox | ![screenshot](documentation/browsers/firefox-home.png) | ![screenshot](documentation/browsers/firefox-recipes.png) | ![screenshot](documentation/browsers/firefox-celebrities.png) | ![screenshot](documentation/browsers/firefox-subscribe.png) | Works as expected |
 | Safari | ![screenshot](documentation/browsers/safari-home.png) | ![screenshot](documentation/browsers/safari-recipes.png) | ![screenshot](documentation/browsers/safari-celebrities.png) | ![screenshot](documentation/browsers/safari-subscribe.png) | Works as expected |
 
-
-
 ## Responsiveness
-
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
 | Device | Home | Recipes | Celebrities | Subscribe | Notes |
@@ -63,9 +52,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Google Pixel 7 Pro | ![screenshot](documentation/responsiveness/pixel7-home.png) | ![screenshot](documentation/responsiveness/pixel7-recipes.png) | ![screenshot](documentation/responsiveness/pixel7-celebrities.png) | ![screenshot](documentation/responsiveness/pixel7-subscribe.png) | Works as expected |
 | iPhone 14 Pro Max | ![screenshot](documentation/responsiveness/iphone14pm-home.png) | ![screenshot](documentation/responsiveness/iphone14pm-recipes.png) | ![screenshot](documentation/responsiveness/iphone14pm-celebrities.png) | ![screenshot](documentation/responsiveness/iphone14pm-subscribe.png) | Works as expected |
 
-
 ## Lighthouse Audit
-
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
 | Page | Mobile | Desktop | Notes |
@@ -76,16 +63,11 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Subscribe | ![screenshot](documentation/lighthouse/lighthouse-subscribe-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-subscribe-desktop.png) | Some minor warnings |
 
 ## Bugs
-
-
 - JS Uncaught ReferenceError: `foobar` is undefined/not defined
 
     ![screenshot](documentation/bugs/bug01.png)
 
     - To fix this, I _____________________.
-
-
-   
 
 ## Unfixed Bugs
 
@@ -94,9 +76,6 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
     ![screenshot](documentation/bugs/unfixed-bug01.png)
 
     - Attempted fix: I tried to add additional media queries to handle this, but things started becoming too small to read.
-
-
-
 
 > [!NOTE]  
 > There are no remaining bugs that I am aware of.
