@@ -314,9 +314,6 @@ header {
 
 /* Form */
 #subscribe {
-    /* background-image: url("../images/bg5.jpeg"); */
-    /* background-size: cover; */
-    /* background-position: 75%; */
     padding: 15vh 10% 0 10%;
     flex-grow: 1;
     height: 94vh;
@@ -924,7 +921,7 @@ footer {
     color: white !important;
 }
 
-
+/* handle clicking on recipe by displaying the clickable one and hide the others*/
 .recipe-content {
     display: none;
 }
