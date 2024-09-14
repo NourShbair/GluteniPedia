@@ -33,11 +33,11 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 ## Browser Compatibility
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Browser | Home | Recipes | Celebrities | Subscribe | Notes |
-| --- | --- | --- | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browsers/chrome.home.png) | ![screenshot](documentation/browsers/chrome-recipes.png) | ![screenshot](documentation/browsers/chrome-celebrities.png) | ![screenshot](documentation/browsers/chrome-subscribe.png) | Works as expected |
-| Firefox | ![screenshot](documentation/browsers/firefox-home.png) | ![screenshot](documentation/browsers/firefox-recipes.png) | ![screenshot](documentation/browsers/firefox-celebrities.png) | ![screenshot](documentation/browsers/firefox-subscribe.png) | Works as expected |
-| Safari | ![screenshot](documentation/browsers/safari-home.png) | ![screenshot](documentation/browsers/safari-recipes.png) | ![screenshot](documentation/browsers/safari-celebrities.png) | ![screenshot](documentation/browsers/safari-subscribe.png) | Works as expected |
+| Browser | Home | Recipes | Diagnose | Celebrities | Subscribe | Confirmation | About | Privacy Policy | Error 404 | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Chrome | ![screenshot](documentation/browsers/chrome.home.png) | ![screenshot](documentation/browsers/chrome-recipes.png) | ![screenshot](documentation/browsers/chrome-diagnose.png) | ![screenshot](documentation/browsers/chrome-celebrities.png) | ![screenshot](documentation/browsers/chrome-subscribe.png) | ![screenshot](documentation/browsers/chrome-confirmation.png) | ![screenshot](documentation/browsers/chrome-about.png) | ![screenshot](documentation/browsers/chrome-privacy-policy.png) | ![screenshot](documentation/browsers/chrome-error.png) | Works as expected |
+| Firefox | ![screenshot](documentation/browsers/firefox-home.png) | ![screenshot](documentation/browsers/firefox-recipes.png) | ![screenshot](documentation/browsers/firefox-diagnose.png) | ![screenshot](documentation/browsers/firefox-celebrities.png) | ![screenshot](documentation/browsers/firefox-subscribe.png) | ![screenshot](documentation/browsers/firefox-confirmation.png) | ![screenshot](documentation/browsers/firefox-about.png) | ![screenshot](documentation/browsers/firefox-privacy-policy.png) | ![screenshot](documentation/browsers/firefox-error.png) | Works as expected |
+| Safari | ![screenshot](documentation/browsers/safari-home.png) | ![screenshot](documentation/browsers/safari-recipes.png) | ![screenshot](documentation/browsers/safari-diagnose.png) | ![screenshot](documentation/browsers/safari-celebrities.png) | ![screenshot](documentation/browsers/safari-subscribe.png) | ![screenshot](documentation/browsers/safari-confirmation.png) | ![screenshot](documentation/browsers/safari-about.png) | ![screenshot](documentation/browsers/safari-privacy-policy.png) | ![screenshot](documentation/browsers/safari-error.png) | Works as expected |
 
 ## Responsiveness
 I've tested my deployed project on multiple devices to check for responsiveness issues.
