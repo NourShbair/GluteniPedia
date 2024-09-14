@@ -63,19 +63,32 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Subscribe | ![screenshot](documentation/lighthouse/lighthouse-subscribe-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-subscribe-desktop.png) | Some minor warnings |
 
 ## Bugs
-- JS Uncaught ReferenceError: `foobar` is undefined/not defined
+- Margins in celebrities page had some overlapping on real mobile devices.
 
-    ![screenshot](documentation/bugs/bug01.png)
+    ![screenshot](documentation/bugs/bug-celebrity-margin-unsolved.jpeg)
 
-    - To fix this, I _____________________.
+    - To fix this, I cropped all celebrities pics to be square ratio (1:1)
+    
+    ![screenshot](documentation/bugs/bug-celebrity-margin-solved.jpeg)
+
+- Scrolling in side menu showning the content of the page on small and medium devices.
+
+    ![screenshot](documentation/bugs/bug-menu-scroll-unsolved.png)
+
+    - To fix this, I set 'fixed' value for 'position' attribute to the container div
+    
+    ![screenshot](documentation/bugs/bug-menu-scroll-solved.png)
+
 
 ## Unfixed Bugs
 
-- On devices smaller than 375px, the page starts to have `overflow-x` scrolling.
+- On medium devices (ipad and tablets), website name in slide menu should be lighter color (white).
 
-    ![screenshot](documentation/bugs/unfixed-bug01.png)
+    ![screenshot](documentation/bugs/bug-menu-site-name-color-unsolved.png)
 
-    - Attempted fix: I tried to add additional media queries to handle this, but things started becoming too small to read.
+    - Attempted fix: I tried to customize the color in tablets media query to handle this, but it did not solve the issue.
 
-> [!NOTE]  
-> There are no remaining bugs that I am aware of.
+- Some divs have small margins and need to justify the margins for all pages.
+
+    ![screenshot](documentation/bugs/bug-celebrity-text-margin-unsolved.png)
+
