@@ -59,7 +59,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | --- | --- | --- | --- |
 | Home | ![screenshot](documentation/lighthouse/lighthouse-home-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-home-desktop.png) | Slow response time due to large images |
 | Recipes | ![screenshot](documentation/lighthouse/lighthouse-recipes-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-recipes-desktop.png) | Slow response time due to large images |
-| Celebrities | ![screenshot](documentation/lighthouse/lighthouse-celebrities-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-celebrities-desktop.png) | Slow response time due to large images |
+| Celebrities | ![screenshot](documentation/lighthouse/lighthouse-celebrities-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-celebrities-desktop.png) | Some minor warnings |
 | Subscribe | ![screenshot](documentation/lighthouse/lighthouse-subscribe-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-subscribe-desktop.png) | Some minor warnings |
 
 ## Bugs
