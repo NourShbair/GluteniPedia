@@ -1,36 +1,21 @@
+/* Setup font family */
 .alegreya-sans-sc-bold {
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 900;
     font-style: normal;
 }
 
+.dark-text {
+    color: rgb(52, 51, 51) !important;
+}
+
+/* Fade-in animation */
 @keyframes fadeIn {
     0% {
         opacity: 0;
     }
-    100% {
-        opacity: 1;
-    }
-}
 
-@keyframes slideInUp {
-    0% {
-        transform: translateY(50px);
-        opacity: 0;
-    }
     100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-@keyframes slideInDown {
-    0% {
-        transform: translateY(-50px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
         opacity: 1;
     }
 }
@@ -39,15 +24,42 @@
     animation: fadeIn 0.3s ease-in-out;
 }
 
-.slide-in-up{
+/* Slide-in-up animation */
+@keyframes slideInUp {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-up {
     animation: slideInUp 1.3s ease-in-out;
 
 }
 
-.slide-in-down{
+/* Slide-in-down animation */
+@keyframes slideInDown {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-down {
     animation: slideInDown 1.3s ease-in-out;
 
 }
+
 /* Header */
 header {
     height: 8vh;
@@ -56,103 +68,6 @@ header {
 #menu-button {
     display: none;
 }
-
-/* Nav toggle */
-#menu-button:checked~#navbarSupportedContent {
-    display: block;
-    /* background: linear-gradient(180deg, rgba(0, 64, 73, 1) 0%, rgba(8, 131, 149, 1) 0%, rgba(69, 191, 208, 1) 73%, rgba(255, 255, 255, 1) 100%); */
-    animation: slideInUp 1.3s ease-in-out;
-
-}
-
-.navbar:has(#menu-button:checked) {
-    background: linear-gradient(180deg, rgba(0, 64, 73, 1) 0%, rgba(8, 131, 149, 1) 0%, rgba(69, 191, 208, 1) 73%, rgba(255, 255, 255, 1) 100%);
-    position: fixed;
-    display: block;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-}
-
-#subscribe-main {
-    margin-top: -8vh;
-}
-
-#home-page-bg-img {
-    width: 100%;
-    object-fit: contain;
-}
-
-
-#confirmation-msg {
-    margin-top: 8vh;
-    margin-bottom: 8vh;
-    margin-left: 4vw;
-    margin-right: 4vw;
-    text-align: center;
-}
-
-#confirmation-background-img {
-    width: 100%;
-}
-
-#confirmation-div {
-    min-height: 78vh;
-    position: relative;
-    bottom: 0;
-}
-
-
-.error-container, .confirmation-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 85vh;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.error-image{
-    max-width: 300px;
-    margin-bottom: 2rem;
-}
-
-.confirmation-image{
-    max-width: 500px;
-    margin-bottom: 2rem;
-}
-
-.error-message, .confirmation-message {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.error-description, .confirmation-description {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-}
-
-.redirect-links {
-    list-style-type: none;
-    padding: 0;
-}
-
-.redirect-links li {
-    margin-bottom: 0.5rem;
-}
-
-.redirect-links a {
-    text-decoration: none;
-    color: #45bfd0;
-    transition: color 0.3s ease-in-out;
-}
-
-.redirect-links a:hover {
-    color: #088395;
-}
-
 
 #logo-image {
     max-width: 30px;
@@ -171,58 +86,57 @@ header {
     animation: slideInDown 1.3s ease-in-out;
     transform-origin: 0px 0px;
     height: 100%;
-    
-}
-
-#card1 {
-    color: #011b1f;
-    border-width: 0;
-    margin-top: 8vh;
 
 }
 
-
-#card3 {
-    background-color: #ffffff;
-    border-width: 0;
-    margin-top: 8vh;
-
+.nav-link {
+    color: white !important;
 }
 
-#card3 img {
-    margin-top: 0;
-}
-
-#card3 h3 {
-    margin-bottom: 0;
-}
-
-.card-img-top {
-    max-width: 70vw;
+/* Nav toggle */
+#menu-button:checked~#navbarSupportedContent {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    animation: slideInUp 1.3s ease-in-out;
+}
+
+/* Click on menu button */
+.navbar:has(#menu-button:checked) {
+    background: linear-gradient(180deg, rgba(0, 64, 73, 1) 0%, rgba(8, 131, 149, 1) 0%, rgba(69, 191, 208, 1) 73%, rgba(255, 255, 255, 1) 100%);
+    position: fixed;
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+/* When the checkbox is checked, hide the open icon and show the close icon */
+#menu-button:checked~label .menu-button-open {
+    display: none;
+}
+
+#menu-button:checked~label .menu-button-close::before {
+    display: inline;
+}
+
+#menu-button:checked~label span {
+    border-color: white;
+    border-width: 0;
+}
+
+/* Initially hide the close icon */
+.menu-button-close::before {
+    display: none;
+    color: white;
+}
+
+.menu-button-close {
     margin-top: 20px;
+    margin-right: 2px;
 }
 
-#diagnose-card {
-    border-width: 0;
-    margin-top: 4vh;
-}
-
-.celebrity-div a {
-    display: block;
-    height: 100%;
+#home-page-bg-img {
     width: 100%;
-    text-decoration: none;
-}
-
-
-.recipe-div a {
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
+    object-fit: contain;
 }
 
 .landing-page-div a {
@@ -237,7 +151,6 @@ header {
     max-width: 60vw;
 }
 
-
 .lp-div-img-vertical {
     display: inline;
 }
@@ -246,13 +159,41 @@ header {
     display: none;
 }
 
+.card-img-top {
+    max-width: 70vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+#diagnose-card {
+    border-width: 0;
+    margin-top: 4vh;
+}
+
+.celebrity-div a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.recipe-div a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
 
 .recipe-card-container,
 .recipe-card {
     height: 100%;
 }
-
-
 
 .recipe-card,
 .recipes-header-card,
@@ -278,41 +219,21 @@ header {
     border-width: 0;
 }
 
-
 .celebrity-img {
     height: inherit;
     object-fit: contain;
 }
 
-.celebrity-div{
-
+/* handle clicking on recipe by displaying the clickable one and hide the others*/
+.recipe-content {
+    display: none;
 }
 
-
-#tog,
-#content {
-    display: none
+:target {
+    display: inline;
 }
 
-#tog:checked+#content {
-    display: block
-}
-
-
-.dark-text {
-    color: rgb(52, 51, 51) !important;
-}
-
-.light-text {
-    color: #ffffff !important;
-}
-
-
-.card-title {
-    text-align: center;
-}
-
-/* Form */
+/* Subscription form */
 #subscribe {
     padding: 15vh 10% 0 10%;
     flex-grow: 1;
@@ -357,6 +278,90 @@ header {
     background-color: #fafafa;
 }
 
+#subscribe-main {
+    margin-top: -8vh;
+}
+
+#confirmation-msg {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    text-align: center;
+}
+
+#confirmation-background-img {
+    width: 100%;
+}
+
+#confirmation-div {
+    min-height: 78vh;
+    position: relative;
+    bottom: 0;
+}
+
+.confirmation-image {
+    max-width: 500px;
+    margin-bottom: 2rem;
+}
+
+.error-container,
+.confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.error-message,
+.confirmation-message {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.error-description,
+.confirmation-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.error-image {
+    max-width: 300px;
+    margin-bottom: 2rem;
+}
+
+/* Redirect links in error pages */
+.redirect-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.redirect-links li {
+    margin-bottom: 0.5rem;
+}
+
+.redirect-links a {
+    text-decoration: none;
+    color: #45bfd0;
+    transition: color 0.3s ease-in-out;
+}
+
+.redirect-links a:hover {
+    color: #088395;
+}
+
+#tog,
+#content {
+    display: none
+}
+
+#tog:checked+#content {
+    display: block
+}
 
 #about-div,
 #privacy-policy-div {
@@ -364,7 +369,7 @@ header {
     margin-right: 10vw;
 }
 
-
+/* Video player in diagnose page */
 .video-player {
     width: 70vw;
     height: 39vw;
@@ -372,8 +377,7 @@ header {
     margin-bottom: 2vh;
 }
 
-
-
+/* Brands slideshow in home page*/
 #slideshow {
     text-align: center;
     overflow: hidden;
@@ -382,7 +386,6 @@ header {
     margin: 0 auto;
     margin-bottom: 2vh;
     margin-top: 5vh;
-
 }
 
 .slide-wrapper {
@@ -396,13 +399,10 @@ header {
     width: 70vw;
 }
 
-
 .slideshow-img {
     width: 100%;
     height: 100%;
 }
-
-
 
 @-webkit-keyframes slide {
     10% {
@@ -478,7 +478,74 @@ header {
     align-content: center;
     text-align: center;
     margin-bottom: 5vh;
+}
 
+/* Countdown in subscription-confirmation page */
+#countdown {
+    text-align: center;
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.countdown-wrapper {
+    width: 500px;
+    -webkit-animation: time 10s ease infinite;
+}
+
+.time {
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+.remaining-time {
+    color: #000;
+    text-align: center;
+    font-size: 1rem;
+}
+
+@-webkit-keyframes time {
+    10% {
+        margin-left: 0px;
+    }
+
+    20% {
+        margin-left: -50px;
+    }
+
+    30% {
+        margin-left: -100px;
+    }
+
+    40% {
+        margin-left: -150px;
+    }
+
+    50% {
+        margin-left: -200px;
+    }
+
+    60% {
+        margin-left: -250px;
+    }
+
+    70% {
+        margin-left: -300px;
+    }
+
+    80% {
+        margin-left: -350px;
+    }
+
+    90% {
+        margin-left: -400px;
+    }
+
+    100% {
+        margin-left: -450px;
+    }
 }
 
 /* Footer */
@@ -487,24 +554,19 @@ footer {
 }
 
 #footer-bar {
-
-    /* background-color: #088395; */
     background: linear-gradient(0deg, rgba(0, 64, 73, 1) 0%, rgba(8, 131, 149, 1) 0%, rgba(69, 191, 208, 1) 73%, rgba(255, 255, 255, 1) 100%);
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-
     width: 100%;
     bottom: 0;
     margin: 0;
-
     font-size: 1.4rem;
 }
 
 #footer-bar a {
-
     color: #ffffff;
     text-decoration: none;
 }
@@ -543,13 +605,11 @@ footer {
         width: 80vw;
         transform: translateX(10vw);
         margin-bottom: 10vh;
-
     }
 
     #slideshow {
         height: 48vw;
         width: 60vw;
-
     }
 
     .slide-wrapper {
@@ -560,7 +620,6 @@ footer {
         height: 48vw;
         width: 60vw;
     }
-
 
     @-webkit-keyframes slide {
         10% {
@@ -687,14 +746,13 @@ footer {
     }
 
     #error-background-img {
-    width: 60vw;
-    transform: translateX(20vw);
+        width: 60vw;
+        transform: translateX(20vw);
     }
 
     #slideshow {
         height: 32vw;
         width: 40vw;
-
     }
 
     .slide-wrapper {
@@ -705,7 +763,6 @@ footer {
         height: 32vw;
         width: 40vw;
     }
-
 
     @-webkit-keyframes slide {
         10% {
@@ -819,13 +876,11 @@ footer {
         height: 28vw;
         margin-bottom: 2vh;
         margin: 0 auto;
-
     }
 
     #error-background-img {
         width: 60vw;
         transform: translateX(20vw);
-
     }
 
     #slideshow {
@@ -842,7 +897,6 @@ footer {
         height: 32vw;
         width: 40vw;
     }
-
 
     @-webkit-keyframes slide {
         10% {
@@ -913,88 +967,4 @@ footer {
             margin-left: -320vw;
         }
     }
-
 }
-
-
-.nav-link {
-    color: white !important;
-}
-
-/* handle clicking on recipe by displaying the clickable one and hide the others*/
-.recipe-content {
-    display: none;
-}
-
-:target {
-    display: inline;
-}
-
-/* When the checkbox is checked, hide the open icon and show the close icon */
-#menu-button:checked~label .menu-button-open {
-    display: none;
-}
-
-#menu-button:checked~label .menu-button-close::before {
-    display: inline;
-}
-
-#menu-button:checked~label span {
-    border-color: white;
-    border-width: 0;
-}
-
-
-/* Initially hide the close icon */
-.menu-button-close::before {
-    display: none;
-    color: white;
-}
-
-.menu-button-close {
-    margin-top: 20px;
-    margin-right: 2px;
-}
-
-
-
-  /* Countdown in subscription-confirmation page */
-  #countdown {
-    text-align: center;
-    overflow: hidden;
-    height: 50px;
-    width: 50px;
-    margin: 0 auto;
-  }
-  
-  .countdown-wrapper {
-    width: 500px;
-    -webkit-animation: time 10s ease infinite;
-  }
-  
-  .time {
-    float:left;
-    height: 50px;
-    width: 50px;
-  }
-  
-  .remaining-time {
-    color: #000;
-    text-align: center;
-    font-size: 1rem;
-  }
-  
-  @-webkit-keyframes time {
-    10% {margin-left: 0px;}
-    20% {margin-left: -50px;}
-    30% {margin-left: -100px;}
-    40% {margin-left: -150px;}
-    50% {margin-left: -200px;}
-    60% {margin-left: -250px;}
-    70% {margin-left: -300px;}
-    80% {margin-left: -350px;}
-    90% {margin-left: -400px;}
-    100% {margin-left: -450px;}
-
-  }
-  
